@@ -2,25 +2,7 @@ import time
 
 ## 🛠️ ส่วนที่ 1: การ Implement Algorithm Sorting
 
-def quick_sort(arr):
-    """
-    Implements the Quick Sort algorithm using recursion (Divide and Conquer).
-    Returns a new sorted list.
-    """
-    # Base case: List with 0 or 1 element is already sorted
-    if len(arr) <= 1:
-        return arr
-    
-    # Selecting the pivot (here, the middle element)
-    pivot = arr[len(arr) // 2]
-    
-    # Partitioning the array into three lists: less than, equal to, and greater than the pivot
-    left = [x for x in arr if x < pivot]
-    middle = [x for x in arr if x == pivot]
-    right = [x for x in arr if x > pivot]
-    
-    # Recursively calling quick_sort on the left and right partitions, then combining results
-    return quick_sort(left) + middle + quick_sort(right)
+from sorting_algorithms_quick_sort import quick_sort
 
 def bubble_sort(arr):
     """
