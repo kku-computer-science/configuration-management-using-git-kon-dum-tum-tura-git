@@ -4,29 +4,7 @@ import time
 
 from sorting_algorithms_quick_sort import quick_sort
 
-def bubble_sort(arr):
-    """
-    Implements the Bubble Sort algorithm (in-place modification).
-    Returns the modified sorted list.
-    """
-    n = len(arr)
-    # Loop for every element (n passes)
-    for i in range(n):
-        # Optimization: Flag to check if any swap occurred in the inner loop
-        swapped = False
-        # Last i elements are already in place, so we only compare up to n - i - 1
-        for j in range(0, n - i - 1):
-            # Compare adjacent elements and swap if the current element is greater than the next
-            if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
-                swapped = True
-        
-        # If no two elements were swapped by inner loop, then break (already sorted)
-        if not swapped:
-            break
-            
-    return arr
-
+from sorting_algorithms_bubble_sort import bubble_sort
 
 ## ⚙️ ส่วนที่ 2: การจัดการ Input และการเลือก Algorithm
 

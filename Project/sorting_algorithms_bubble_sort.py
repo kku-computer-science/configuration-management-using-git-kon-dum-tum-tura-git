@@ -8,3 +8,4 @@ def bubble_sort(arr):
                 swapped = True
         if swapped == False:
             break
+        return arr
