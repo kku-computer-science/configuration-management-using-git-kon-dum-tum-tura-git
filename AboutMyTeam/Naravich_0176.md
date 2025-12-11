@@ -1,5 +1,5 @@
 # แนะนำสมาชิก
 ชื่อ: นราวิชญ์ คำปุทา
 รหัส: 663380017-6
-หน้าที่: Application Developer
+หน้าที่: Code Integrator & Tester
 
