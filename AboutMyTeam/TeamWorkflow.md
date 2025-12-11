@@ -1,6 +1,6 @@
 
 # TeamWorkflow
-1 ระยะที่ 1: การพัฒนา Algorithm (Implementation by Chayasak & Yasinthon)
+## 1 ระยะที่ 1: การพัฒนา Algorithm (Implementation by Chayasak & Yasinthon)
 
 
 1.1 เริ่มต้น ให้ ชญาศักดิ์ อบเชย และ ยสินทร จงกลาง สร้าง branch ทำงานของตัวเอง
@@ -11,7 +11,7 @@
 
 1.3 เมื่อพัฒนาและทดสอบ Algorithm ใน Branch ของตัวเองจนเสร็จสมบูรณ์แล้ว ให้ Push โค้ดขึ้น GitHub และแจ้งให้ นราวิชญ์ คำปุทา ทราบว่าพร้อมสำหรับการรวมโค้ดแล้ว
 
-2 ระยะที่ 2: การรวมโค้ดและการทดสอบ (Integration & Testing by Naravich)
+## 2 ระยะที่ 2: การรวมโค้ดและการทดสอบ (Integration & Testing by Naravich)
 
 
 2.1 ก่อนจะเริ่มรวมโค้ด นราวิชญ์ ต้องเช็คว่าสาขาหลักในเครื่องของตนเอง (main) เป็นเวอร์ชันล่าสุดก่อนเสมอ
